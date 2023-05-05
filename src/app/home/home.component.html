@@ -1,0 +1,7 @@
+<div *ngIf="userInfos.length > 0" class="users">
+    <div class="userInfo" *ngFor="let user of userInfos">
+        <h2>{{user.name}}</h2>
+        <h4>{{user.email}}</h4>
+        <h6>{{user.username}}</h6>
+    </div>
+</div>

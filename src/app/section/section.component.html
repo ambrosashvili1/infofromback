@@ -1,0 +1,15 @@
+<div class="main">
+    <form [formGroup]="myForm">
+        <label for="name">Name: </label>
+        <input id="name" type="text" formControlName="name">
+
+        <label for="password">Password: </label>
+        <input id="password" type="password">
+
+        <div class="btns">
+            <button class="submit"  routerLink="home">
+                Submit
+            </button>
+        </div>
+    </form>
+</div>
